@@ -38,11 +38,13 @@ print_telegram_icon() {
 }
 
 display_ascii() {
-    echo -e "    ${RED}    ____  __ __    _   ______  ____  ___________${RESET}"
-    echo -e "    ${GREEN}   / __ \\/ //_/   / | / / __ \\/ __ \\/ ____/ ___/${RESET}"
-    echo -e "    ${BLUE}  / / / / ,<     /  |/ / / / / / / / __/  \\__ \\ ${RESET}"
-    echo -e "    ${YELLOW} / /_/ / /| |   / /|  / /_/ / /_/ / /___ ___/ / ${RESET}"
-    echo -e "    ${MAGENTA}/_____/_/ |_|  /_/ |_/\____/_____/_____//____/  ${RESET}"
+    echo -e "    ${RED}___          __  __ ____________${RESET}"
+    echo -e "    ${GREEN}|  _ \   /\   |  \/  |___  |___  /${RESET}"
+    echo -e "    ${BLUE}| |_) | /  \  | \  / |  / /   / / ${RESET}"
+    echo -e "    ${CYAN}|  _ < / /\ \ | |\/| | / /   / /  ${RESET}"
+    echo -e "    ${MAGENTA}| |_) / ____ \| |  | |/ /__ / /__ ${RESET}"
+    echo -e "    ${YELLOW}|____/_/    \_|_|  |_/_____/_____|${RESET}"
+    echo -e "    ${YELLOW}📢 Follow us on Twitter: https://x.com/HRH_Mckay${RESET}"
 }
 
 show() {
@@ -266,8 +268,7 @@ while true; do
         echo -e "    ${GREEN}Manage your node efficiently and easily.${RESET}"
         echo -e "${CYAN}║${RESET}"
         draw_middle_border
-        echo -e "    ${BLUE}Subscribe to our channel: ${YELLOW}https://t.me/dknodes${RESET}"
-        draw_middle_border
+        
         echo -e "    ${YELLOW}Please choose an option:${RESET}"
         echo
         echo -e "    ${CYAN}1.${RESET} ${ICON_INSTALL} Install/Update Node"
